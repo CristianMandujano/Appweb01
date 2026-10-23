@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
-</head>
-<body>
-    <h1>Servicios</h1>
-    <p>Estos son los servicios que ofrecemos.</p>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="container-fluid">
+        <h1>Servicios</h1>
+        <p>{{ mensaje }}</p>
+    </div>
+{% endblock %}

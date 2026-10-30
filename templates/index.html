@@ -3,6 +3,10 @@
 {% block content %}
     <div class="container-fluid">
         <h1>UDL-ICO</h1>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='img/iconoejem.jpeg') }}" alt="Imagen de la universidad" class="img-fluid"
+        style="max-width: 200px; height: auto;">
+    </div>
         <p>Hola,{{ mensaje }}</p>
         <p>Esta es un pagina de ejemplo para mostrar como funciona Flask con plantillas HTML</p>
     </div>

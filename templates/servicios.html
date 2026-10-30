@@ -1,8 +1,16 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <div class="container-fluid">
-        <h1>Servicios</h1>
-        <p>{{ mensaje }}</p>
+<div class="container-fluid">
+    <h1>Servicios</h1>
+    <p>{{ mensaje }}</p>
+    <div class="card" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='img/productos/productos1.jpg') }}" class="card-img-top" alt="Servicios de Alfeñique">
+        <div class="card-body">
+            <h5 class="card-title">Calavera colorida</h5>
+            <p class="card-text">Ofrecemos una amplia variedad de figuras y formas deliciosas de alfeñique.</p>
+            <a href="#" class="btn btn-primary">Ver más información</a>
+        </div>
     </div>
+</div>
 {% endblock %}
